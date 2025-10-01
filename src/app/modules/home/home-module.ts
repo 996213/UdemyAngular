@@ -5,8 +5,8 @@ import { HomeRoutingModule } from './home-routing-module';
 
 
 @NgModule({
-  declarations: [],
-  imports: [
+  declarations: [], // Solo van componentes, directivas y pipes
+  imports: [ // Solo se importan modulos
     CommonModule,
     HomeRoutingModule
   ]

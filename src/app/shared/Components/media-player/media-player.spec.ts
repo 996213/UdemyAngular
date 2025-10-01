@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Example } from './example';
+import { MediaPlayer } from './media-player';
 
-describe('Example', () => {
-  let component: Example;
-  let fixture: ComponentFixture<Example>;
+describe('MediaPlayer', () => {
+  let component: MediaPlayer;
+  let fixture: ComponentFixture<MediaPlayer>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Example]
+      imports: [MediaPlayer]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Example);
+    fixture = TestBed.createComponent(MediaPlayer);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
